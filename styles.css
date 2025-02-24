@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #e9e5e5;
+    text-align: center;
+    flex-direction: row-reverse;
+    
+ }
+
+header {
+    background-color: #333;
+    color: whitesmoke;
+    padding:10px;
+}
+
+.bucket-list {
+    list-style: square;
+    padding: 1rem;
+    max-width: 400px;
+    margin: 20px auto;
+    background:rgb(212, 202, 182);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: #0c0b0b;
+}
+.bucket-list{
+    background-color:rgb(212,202,182);
+    transition-duration: 0.2s;
+}
+
+.bucket-list li {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-bottom: 1px solid #3b3333;
+    position: relative;
+}
+
+.bucket-list li:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    color: rgb(19, 20, 19);
+    font-weight: bold;
+}
+
+.completed span {
+    color: rgb(19, 20, 19);
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
